@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
     spec.summary = 'Boost provides free peer-reviewed portable C++ source libraries.'
     spec.authors = 'Pritesh Nandgaonkar'
     spec.source = { :git => 'https://github.com/priteshrnandgaonkar/Flipper-Boost.git',
-                    :branch => 'master' }
+                    :tag => '1.76.0' }
 
     # Pinning to the same version as React.podspec.
     spec.platforms = { :ios => '10.0' }
